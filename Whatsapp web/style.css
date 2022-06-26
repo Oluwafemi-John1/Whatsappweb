@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    /* border: 2px solid black; */
+    /* position: absolute; */
+    border: none;
+}
+
+#box {
+    /* border: 2px solid red; */
+    background-color: #00A884;
+    /* position: relative; */
+    height: 32vh;
+    /* width: 210vh; */
+}
+
+header {
+    display: flex;
+    /* border: 4px dotted black; */
+    width: fit-content;
+    transform: translate(270px, 25.5px);
+}
+
+
+#box header div img {
+    /* border: 2px solid blue; */
+    width: 40;
+}
+
+#box header .web {
+    /* border: 2px solid yellow; */
+    text-transform: uppercase;
+    color: white;
+    vertical-align: middle;
+    transform: translate(0px, 10px);
+    text-align: start;
+    font-family: Segoe UI;
+    font-size: 14px;
+    margin: 0px 0px 0px 14px;
+    font-weight: 500;
+}
+
+#flex-box {
+    /* border: 2px solid red; */
+    height: 105vh;
+    background-color: #DDDEDD;
+    position: relative;
+    display: flex;
+}
+
+#flex-container {
+    /* border: 2px solid red; */
+    transform: translate(0px, -143px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 0 17px 50px 0 rgb(11 20 26 / 19%), 0 12px 15px 0 rgb(11 20 26 / 24%);
+    width: 120vh;
+    height: 110vh;
+    background-color: white;
+}
+
+#flex-container .flex-container-top {
+    /* border: 2px solid grey; */
+    height: 43vh;
+    padding: 60px;
+}
+
+.flex-content {
+    /* border: 2px solid red; */
+    height: 42vh;
+    display: flex;
+}
+
+.use-whatsapp {
+    color: rgb(65, 82, 93);
+    font-family: Segoe UI;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 52px;
+    line-height: normal;
+}
+
+ol {
+    /* border: 2px solid green; */
+    color: rgb(59, 74, 84);
+    font-family: Segoe UI;
+    transform: translate(20px, 0px);
+    /* font-size: 16px; */
+    /* line-height: 16px; */
+    /* font-weight: 400; */
+}
+
+ol li {
+    /* border: 1px solid blue; */
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: left;
+}
+
+ol li img {
+    /* border: medium solid black; */
+    transform: translateY(7.5px);
+}
+
+.flex-content a {
+    /* border: medium solid black; */
+    font-family: Segoe UI;
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgb(0, 128, 105);
+    text-decoration: none;
+}
+
+.flex-content .img {
+    width: 272;
+    height: 275;
+    transform: translateX(50px);
+}
+
+#flex-container .flex-container-bottom {
+    /* border: 2px solid greenyellow; */
+    background-color: #F9F9FA;
+    height: 40vh;
+    padding: 60px;
+    display: flex;
+}
+
+video {
+    margin: auto;
+}
